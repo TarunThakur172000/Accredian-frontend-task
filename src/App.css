@@ -2,6 +2,7 @@
   text-align: center;
 }
 
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -260,6 +261,51 @@ border-radius: 29px ;
 overflow: hidden !important;
 background-color: #EEF5FF;
 }
+.Container-02{
+  width: 98.9rem;
+  height: 41rem;
+  top: 51rem;
+  left: -4rem;
+  background-color: #EEF5FF;
+  position: absolute;
+}
+
+
+
+.Container-02 img{
+  width: 74rem;
+  height: 31rem;
+  top: 1rem;
+  left: 16rem;
+  position: absolute;
+
+}
+.userPlus{
+  width: 8rem;
+    height: 66.96px;
+    top: 16rem;
+    left: 29rem;
+    
+    font-size: 2.1rem;
+    
+    position: absolute;
+}
+
+.userPlus p{
+  width: 10rem;
+  height: 88px;
+  top: 3rem;
+  left: -1rem;
+ 
+  position: absolute;
+
+  font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+text-align: center;
+
+}
 
 .models{
   width: 50.875rem;
@@ -267,6 +313,51 @@ background-color: #EEF5FF;
   top: -7rem;
   left: 36.25rem;
   position: absolute;
+}
+
+.refer{
+  width: 65.11px;
+    height: 67.38px;
+    top: 15rem;
+    left: 51rem;
+    font-size: 2.1rem;
+
+    position: absolute;
+}
+.refer p{
+  position: absolute;
+    width: 11rem;
+    height: 88px;
+    top: 3.7rem;
+    left: -3rem;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+
+}
+.wallet{
+  width: 13rem;
+  height: 88px;
+  top: 15rem;
+  left: 68rem;
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
+  font-size: 2.1rem;
+}
+.wallet p{
+  position: absolute;
+    width: 11rem;
+    height: 88px;
+    top: 3.7rem;
+    left: 0.6rem;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
 }
 
 .btn{
@@ -279,4 +370,72 @@ background-color: #EEF5FF;
   border-radius: 8px;
   background-color: #1A73E8;
   color: white;
+}
+
+.referbtn{
+  top: 34rem !important;
+    left: 46rem !important;
+}
+
+.Container-03{
+  width: 94.7rem;
+  height: 41rem;
+  top: 95rem;
+  left: 0rem;
+  position: absolute;
+  text-align: center;
+}
+
+.Container-03 h2{
+  width: 584px;
+  height: 59px;
+  top: 1rem;
+  left: 31rem;
+  position: absolute;
+  font-family: Roboto;
+  font-size: 27.66px;
+  font-weight: 600;
+  line-height: 43px;
+  text-align: center;
+
+}
+
+.E-checkbox{
+  position: absolute;
+  left: 66rem;
+  top: 8rem;
+  height: 2rem;
+  
+}
+
+.Container-04{
+  position: absolute;
+    top: 106rem;
+    left: 13rem;
+}
+
+.popup-box{
+  position: absolute;
+  z-index: 2;
+  width: 35rem;
+  height: 35rem;
+  padding: 5rem;
+  top: 11rem;
+  left: 31rem;
+  background: #eef5ff;
+  border-radius: 2rem;
+}
+.cls-st{
+  margin: 2rem;
+}
+.cls-st input, textarea{
+  border-radius: .4em;
+  border: 2px solid #1A73E8;
+  width: 14rem;
+  height: 1.5rem;
+  margin-left: 2rem;
+}
+.cls-st label{
+  font-size: 1rem;
+    font-family: serif;
 }
